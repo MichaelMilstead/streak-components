@@ -1,0 +1,30 @@
+{
+  "name": "streak-components",
+  "version": "0.1.0",
+  "description": "React components for UI related to streaks.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelMilstead/streak-components.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npm run test",
+    "build": "tsc",
+    "publish-package": "npm run build && npm publish"
+  },
+  "keywords": [
+    "streaks"
+  ],
+  "author": "milst",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/luxon": "^3.3.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "luxon": "^3.4.4"
+  }
+}
